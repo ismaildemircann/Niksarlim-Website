@@ -1,0 +1,215 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="2008'den günümüze uzanan deneyimimizle
+  en uygun fiyat ve kaliteli aktar ürünleri için bizimle iletişime geçin.">
+  <meta name="keywords"
+    content="niksarlım, niksarlim, niksarlim.com, aktar, niksar, tokat aktar, ceviz, mahlep, pekmez, baharat, tereyag, yaprak, macun, fındık">
+  <link rel="icon" href="./images/favicon.ico">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/55d763a1b1.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/contact.css">
+
+  <title>Niksarlım</title>
+</head>
+
+<body>
+  <!-- Navigation Bar-->
+  <section id="title">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color">
+      <a class="navbar-brand brand-nar" href="./index.html">Niksarlım</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto title-right">
+          <li class="nav-item ">
+            <a class="nav-link" href="./index.html">Anasayfa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutUs.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Ürünlerimiz</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Contact Container-->
+  <section id="contact-container" class="container bootstrap snippets bootdeys">
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="contact-detail-box">
+          <em class="fa fa-th fa-3x text-colored"></em>
+          <h4>Bizimle iletişime geçin</h4>
+          +90 (533) 368-6383<br>
+        </div>
+      </div><!-- end col -->
+
+      <div class="col-sm-4">
+        <div class="contact-detail-box">
+          <em class="fa fa-map-marker fa-3x text-colored"></em>
+          <h4>Lokasyonumuz</h4>
+
+          <address>
+            Fatih Sultan Mehmet Cd. No:72<br>
+            Niksar, Tokat<br>
+          </address>
+        </div>
+      </div><!-- end col -->
+
+      <div class="col-sm-4">
+        <div class="contact-detail-box">
+          <em class="fa fa-book fa-3x text-colored"></em>
+          <h4>7/24 Destek</h4>
+
+          <a href="mailto:info@niksarlim.com" class="text-muted">info@niksarlim.com</a>
+        </div>
+      </div><!-- end col -->
+
+    </div>
+    <!-- end row -->
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="contact-map">
+          <iframe class="contact-map-iframe"
+            src="https://www.google.com/maps/embed/v1/place?q=Kılıçarslan,+Fatih+Sultan+Mehmet+Cd.+No:72,+60600+Niksar%2FTokat&amp;key=AIzaSyBSFRN6WWGYwmFi498qXXsD2UwkbmD74v4"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div><!-- end col -->
+
+      <!-- Contact form -->
+      <div class="col-sm-6">
+        <form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/info@niksarlim.com"
+          method="post" class="form-main">
+
+          <div class="form-group">
+            <label for="name2">Ad</label>
+            <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Ad'"
+              onfocus="if(this.value == 'Ad') this.value=''" type="text" value="Ad">
+            <div class="error" id="err-name" style="display: none;">Lütfen adınızı giriniz</div>
+          </div> <!-- /Form-name -->
+
+          <div class="form-group">
+            <label for="email2">Email</label>
+            <input class="form-control" id="email2" name="email" type="text"
+              onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';"
+              value="E-mail">
+            <div class="error" id="err-emailvld" style="display: none;">Mail adresiniz geçerli formata uygun değil</div>
+          </div> <!-- /Form-email -->
+
+          <div class="form-group">
+            <label for="message2">Mesaj</label>
+            <textarea class="form-control" id="message2" name="message" rows="5"
+              onblur="if(this.value == '') this.value='Mesaj'"
+              onfocus="if(this.value == 'Mesaj') this.value=''">Mesaj</textarea>
+
+            <div class="error" id="err-message" style="display: none;">Mesajınızı giriniz</div>
+          </div> <!-- /col -->
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div id="ajaxsuccess" class="text-success">Mailiniz başarıyla yollandı.</div>
+              <div class="error" id="err-form" style="display: none;">Formun geçerliliğiile ilgili bir problem
+                algılandı. Lütfen tekrar kontrol ediniz.</div>
+              <div class="error" id="err-timedout">Server bağlantısı zaman aşımına uğradı!</div>
+              <div class="error" id="err-state"></div>
+              <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Gönder</button>
+            </div> <!-- /col -->
+          </div> <!-- /row -->
+
+        </form> <!-- /form -->
+      </div> <!-- end col -->
+
+    </div> <!-- end row -->
+
+  </section>
+
+  <!-- Contact Information-->
+  <footer id="contact">
+    <div class="container">
+      <div class="ContactHeader">
+        <div class="row">
+
+          <div class="col-md-4">
+            <h4 class="heading-contact">Hakkımızda</h4>
+            <div class="Area">
+              <p>
+                Sağlığınızı daha kaliteli hale getirebilmek için 2008'den günümüze uzanan deneyimimizle en uygun fiyat
+                ve taze aktar ürünlerini Tokat Niksar'dan sizlerle buluşturuyoruz.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <h4 class="heading-contact">İletişim</h4>
+            <div class="Area">
+              <p>
+                <i class="fa fa-map-marked-alt Icon"></i>
+                <strong>Adres: </strong> Fatih Sultan Mehmet Cd. No:72<br>
+                Niksar, Tokat
+              </p>
+
+              <p>
+                <i class="fa fa-phone Icon"></i>
+                <strong>Telefon:</strong> <a href="tel:05333686383"> +90 (533) 368-6383</a>
+              </p>
+
+              <p>
+                <i class="fa fa-envelope Icon"></i>
+                <strong>E-Posta:</strong>
+                <a href="mailto:info@niksarlim.com">info@niksarlim.com</a>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <h4 class="heading-contact">Çalışma Saatlerimiz</h4>
+            <div class="Area">
+              <p>
+                <i class="fas fa-clock Icon"></i> Haftaiçi: 08:30 - 19:00<br />
+                <i class="fas fa-clock Icon"></i> Cumartesi: 09:00 - 18:00
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row copyright-row">
+        <p class="copyright">Copyright © <a href="https://www.linkedin.com/in/ismaildemircan/">İsmail Demircan </a><a
+            href="https://www.linkedin.com/in/gökhan-samet-albayrak-3b1229152">|| Gökhan Samet Albayrak </a><a href="https://www.linkedin.com/in/onur-akkepenek
+      ">|| Onur Akkepenek </a><a href="https://www.linkedin.com/in/mustafa-batuhan-bayoglu-0a9001176">|| Mustafa
+            Batuhan Bayoğlu</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+h1 {
+  color: #fff;
+}
+ul li {
+  line-height: 1.5;
+}
+.brand-nar {
+  margin-left: 10%;
+}
+.title-right {
+  padding: 0 8%;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-color {
+  background-color: #1e2328;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#showcase {
+  height: 665px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(72, 85, 99, 0.5),
+      rgb(41, 50, 60, 0.5)
+    ),
+    url(../images/background-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#showcase h1 {
+  padding-bottom: 4%;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
+#showcase a {
+  display: block;
+  width: 180px;
+  padding: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 5%;
+}
+#showcase a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: rgb(41, 50, 60, 0.5);
+}
+.box {
+  margin-top: 3rem;
+}
+#intro-nuts {
+  background-color: #fff;
+  padding: 70px 0;
+}
+#intro-nuts hr {
+  color: #fff;
+}
+.col-card {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+}
+.card-heading {
+  padding: 2% 0;
+  border-bottom: 2px solid currentColor;
+}
+.card-text {
+  padding: 7%;
+  text-align: left;
+  line-height: 1.7em;
+}
+.flip-card-front img {
+  width: 350px;
+  height: 350px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-back,
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(32, 42, 52, 0.9),
+    #1d2731,
+    #976109
+  );
+  color: #fff;
+  transform: rotateY(180deg);
+}
+.nuts-indi {
+  position: absolute;
+  bottom: -50px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000;
+}
+.carousel-control-prev-icon {
+  background-image: url(../images/left-arrow.svg);
+}
+.carousel-control-next-icon {
+  background-image: url(../images/right-arrow.svg);
+}
+#testimonials {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(32, 42, 52, 0.5),
+    #1d2731,
+    rgb(151, 97, 9, 0.8)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testi-container {
+  opacity: 0.8;
+  position: relative;
+  padding: 70px 0;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.testi-col {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+#testimonials blockquote {
+  padding: 5%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #fff;
+}
+#testimonials h3 {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+#testimonials img {
+  margin-top: 3%;
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.profile {
+  background-color: #121e27;
+  border-radius: 3%;
+}
+.profile:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.5);
+  transition: 0.5s ease-in;
+}
+.quotation {
+  color: #fff;
+  display: flex;
+  justify-content: start;
+}
+#contact {
+  background-color: #202a34;
+  text-align: center;
+}
+.contact-text {
+  display: flex;
+  justify-content: center;
+}
+.ContactHeader {
+  margin: 30px 0;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  color: #a4a499;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0;
+}
+.Area p {
+  text-size-adjust: 100%;
+  margin: 0 0 10px;
+  line-height: 25px;
+  text-align: left;
+  font-size: 14.4px;
+}
+.Icon {
+  margin-right: 3px;
+}
+#contact .container {
+  padding: 20px 0 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.heading-contact {
+  margin: 0 0 14px;
+  text-align: left;
+}
+
+.copyright-row{
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  color: #a4a499;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: center;
+  opacity: 0.5;
+  padding: 1rem;
+}
+.copyright a {
+  color: #a4a499;
+}
+@media (max-width: 481px) {
+  .flip-card,
+  .flip-card img {
+    width: 250px;
+    height: 250px;
+  }
+  .testi-container {
+    padding: 0 5%;
+  }
+  .Area p,
+  .ContactHeader,
+  .heading-contact {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .testi-col {
+    width: 50px;
+    height: auto;
+  }
+  .profile {
+    border-radius: 0.5rem;
+    width: 500px;
+  }
+}
+@media (max-width: 1200px) {
+  #showcase h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 2%;
+  }
+  #testimonials blockquote,
+  #testimonials h3,
+  .card-text {
+    font-size: 0.7rem;
+  }
+  .card-heading {
+    font-size: 1.4rem;
+  }
+  .quotation {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}

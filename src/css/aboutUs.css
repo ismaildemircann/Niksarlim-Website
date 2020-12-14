@@ -1,0 +1,91 @@
+h1 {
+  padding: 5% 9.75%;
+}
+#home-info {
+  background-image: linear-gradient(to right bottom, #202a34, #1d2731, #976109);
+  height: 665px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-container {
+  width: 60%;
+  border-radius: 3%;
+  height: 80%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+.about-container:before {
+  content: "";
+  background-image: url(../images/aboutUs-backround-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: 0;
+}
+.heading-container {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content-container,
+.heading-container {
+  max-width: 100%;
+  height: 50px;
+  z-index: 1;
+  position: relative;
+}
+.content-container {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 8%;
+}
+.text-container {
+  color: #fff;
+}
+#photos {
+  padding: 4%;
+  background-color: #fff;
+}
+.img-carousel {
+  max-width: 100%;
+  border-radius: 7%;
+}
+.container-slide {
+  padding: 4%;
+}
+.blog .carousel-indicators {
+  top: auto;
+  bottom: -3rem;
+}
+@media (max-width: 1201px) {
+  #photos {
+    padding: 9%;
+  }
+  .col-sm-3 {
+    margin-top: 5%;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  #home-info h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 2%;
+  }
+  .about-container {
+    width: 90%;
+  }
+}
