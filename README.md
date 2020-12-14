@@ -4,26 +4,25 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* This project was designed and coded for the corporate promotion of the Narçiçeği herbal market, which sells natural products. The repository is open to everyone, as the employer states that sharing the site's codes is not a problem. You can find information about the site developers below. In addition, technologies and methodologies used during project development were also shared. You are free to download, edit and use Repository.
+* Version 1.0
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+You can use `npm install` for setup packacge. 
 
-### Contribution guidelines ###
+! If any problem about webpack version, you can inform us.
 
-* Writing tests
-* Code review
-* Other guidelines
+## Technologies and Tools Used
+
+- HTML5
+- CSS3
+- Vanilla Javascript
+- Bootstrap 4
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* [Onur Akkepenek](https://github.com/OnurAkkepenekk)
+* [Gökhan Samet Albayrak](https://github.com/gokhansamet)
+* [Mustafa Batuhan Bayoğlu](https://github.com/batuhanbay)
+* [İsmail Demircan](https://ismaildemircan.com/)
