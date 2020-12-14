@@ -13,7 +13,7 @@ You can use `npm install` for setup packacge.
 
 ! If any problem about webpack version, you can inform us.
 
-## Technologies and Tools Used
+### Technologies and Tools Used
 
 - HTML5
 - CSS3
